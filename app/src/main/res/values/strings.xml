@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Мониторинг здоровья</string>
+    <string name="error_str">Ошибка</string>
+    <string name="app_title">Комплексная система мониторинга здоровья</string>
+    <string name="fio">Фамилия Имя Отчество</string>
+    <string name="age">Возраст</string>
+    <string name="preasure">Запись давления</string>
+    <string name="vital_statistic">Жизненные показатели</string>
+    <string name="save">Сохранить</string>
+    <string name="high_pressure">Верхнее давление</string>
+    <string name="low_pressure">Нижнее давление</string>
+    <string name="tachycardia">Тахикардия</string>
+    <string name="pulse">Пульс</string>
+    <string name="date_of_measurement">Дата замера</string>
+    <string name="has_data">Введены данные:</string>
+    <string name="weight">Вес</string>
+    <string name="steps">Шаги</string>
+</resources>
