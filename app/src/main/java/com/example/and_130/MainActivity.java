@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
                 } catch (Exception e){
                     Toast.makeText(MainActivity.this, getString(R.string.error_str) + e.getMessage(),Toast.LENGTH_LONG).show();
                     Log.d(TAG, e.toString());
+                } finally {
+                    Log.i(TAG,"нажата кнопка "+getString(R.string.save));
                 }
             }
         });
@@ -53,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
         buttonPressure.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.i(TAG,"нажата кнопка "+getString(R.string.preasure));
                 Intent intent = new Intent(MainActivity.this, PressureActivity.class);
                 startActivity(intent);
             }
@@ -62,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         buttonVitalStat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.i(TAG,"нажата кнопка "+getString(R.string.vital_statistic));
                 Intent intent = new Intent(MainActivity.this, VitalStatisticActivity.class);
                 startActivity(intent);
             }

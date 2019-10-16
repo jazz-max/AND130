@@ -48,6 +48,8 @@ public class VitalStatisticActivity extends AppCompatActivity {
                 } catch (Exception e){
                     Toast.makeText(VitalStatisticActivity.this, getString(R.string.error_str) + e.getMessage(),Toast.LENGTH_LONG).show();
                     Log.d(TAG, e.toString());
+                } finally {
+                    Log.i(TAG,"нажата кнопка "+getString(R.string.save));
                 }
             }
         });
